@@ -71,14 +71,14 @@ sh <(curl -L https://raw.githubusercontent.com/LinuxBeginnings/Hyprland-Dots/mai
 
 ### TO-DO LIST (TeaJhay)
 
-- Change swww to awww
-- Add hyprpaper & mpvpaper authoritative script to allow video and monitor specific wallpapers
-- fix pkexec/polkit/timeshift (specifically for my setup)
-- include NvChad installation
+- Add Waypaper to scripts. waypaper --restore on boot and change scripts to just open it. Window rules too.
+- fix pkexec/polkit/timeshift (specifically for my setup). Goal is to use hyprpolkit
+- include NvChad installation and some setup.
 - adjust and fix soome gaming specific stuff (pls playnite 2026)
 - other various configuration choices (keybinds, firefox, thunderbird, etc)
-- look into migrating from rofi to wofi and waybar to quickshell.
-- investigte radial menu options - similar to [SNMenu](https://github.com/Sleep-No-More/SNMenu) but for general options.
+- look into migrating from rofi to wofi and waybar to quickshell. (thank you Jak and Dwilliams)
+- investigte radial menu options - similar to [SNMenu](https://github.com/Sleep-No-More/SNMenu) but for general options. (This looks to be limited, but would be so useful)
+- Some QT theme stuff. Try and match to Hyprland-dialogue
 
 
 
