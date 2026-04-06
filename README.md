@@ -55,6 +55,20 @@ sh <(curl -L https://raw.githubusercontent.com/LinuxBeginnings/Hyprland-Dots/mai
 - You can use the above command to automatically clone the `Distro-Hyprland` install scripts
 - It will clone the install script and start the `install.sh`
 
+
+### TO-DO LIST (TeaJhay)
+
+- Change swww to awww
+- Add hyprpaper & mpvpaper authoritative script to allow video and monitor specific wallpapers
+- fix pkexec/polkit/timeshift (specifically for my setup)
+- include NvChad installation
+- adjust and fix soome gaming specific stuff (pls playnite 2026)
+- other various configuration choices (keybinds, firefox, thunderbird, etc)
+- look into migrating from rofi to wofi and waybar to quickshell.
+- investigte radial menu options - similar to [SNMenu](https://github.com/Sleep-No-More/SNMenu) but for general options.
+
+
+
 ### 👁️‍🗨️ My Hyprland install Scripts
 
 Automated Hyprland Scripts for Distro of choice which will pull this dotfiles if opted to install these configurations
