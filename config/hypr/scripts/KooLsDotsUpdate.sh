@@ -21,7 +21,7 @@ fi
 
 # GitHub URL - KooL's dots
 branch="main"
-github_url="https://github.com/LinuxBeginnings/Hyprland-Dots/tree/$branch/config/hypr/"
+github_url="https://github.com/TeaJhay/Hyprland-Dotstree/$branch/config/hypr/"
 # Check for required tools (curl)
 if ! command -v curl &> /dev/null; then
   notify-send -i "$iDIR/error.png" "Need curl:" "curl not found. Please install curl."
@@ -69,7 +69,7 @@ else
   			exit 1
 		fi
         kitty -e bash -c "
-          git clone --depth=1 https://github.com/LinuxBeginnings/Hyprland-Dots.git $KooL_Dots_DIR &&
+          git clone --depth=1 https://github.com/TeaJhay/Hyprland-Dots.git $KooL_Dots_DIR &&
           cd \"$KooL_Dots_DIR\" &&
           chmod +x copy.sh &&
           ./copy.sh &&
