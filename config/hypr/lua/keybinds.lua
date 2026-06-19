@@ -235,7 +235,7 @@ bind(
   dispatch("movecurrentworkspacetomonitor", "d"),
   { description = "move workspace to down monitor" }
 )
-bind("CTRL ALT", "Delete", exec_cmd("$HOME/.config/hypr/scripts/Logout.sh"), { description = "exit Hyprland" })
+bind("CTRL ALT", "Delete", exec_cmd("$HOME/.config/hypr/scripts/Wlogout.sh"), { description = "exit Hyprland" })
 bind("SUPER", "Q", dispatch("killactive", ""), { description = "close active window" })
 bind(
   "SUPER SHIFT",
@@ -244,7 +244,7 @@ bind(
   { description = "Terminate active process" }
 )
 bind("CTRL ALT", "L", exec_cmd("$HOME/.config/hypr/scripts/LockScreen.sh"), { description = "lock screen" })
-bind("CTRL ALT", "P", exec_cmd("$HOME/.config/hypr/scripts/Wlogout.sh"), { description = "powermenu" })
+bind("CTRL ALT", "P", exec_cmd("$HOME/.config/hypr/scripts/Logout.sh"), { description = "powermenu" })
 bind("SUPER SHIFT", "N", exec_cmd("swaync-client -t -sw"), { description = "notification panel" })
 bind(
   "SUPER SHIFT",
